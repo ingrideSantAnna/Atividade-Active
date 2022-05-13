@@ -1,0 +1,83 @@
+body{
+    background-color: beige;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+header{
+    background-color: rgb(203, 119, 224);
+    color: aliceblue;
+    text-align: center;
+    padding: 2%;
+    font-size: medium;
+}
+section{
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+}
+
+figure{
+    height: 485px;
+    width: 487px;
+}
+
+
+#img1{
+    background-image: url('cassie.jpg');
+    height: 400px;
+    width:  401px;
+    background-size: 350px ;
+    background-repeat: no-repeat;
+}
+
+
+#img1:active{
+    background-image: url('maddy.png');
+    height: 400px;
+    width: 401px;
+}
+
+.texto{
+    position: absolute;
+    top: 570px;
+    left: 170px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#img2{
+    background-image: url('euphoria_rue.jpg');
+    height: 400px;
+    width:  401px;
+    background-size: 350px ;
+    background-repeat: no-repeat;
+    
+}
+#img2:active{
+    background-image: url('euphoria_jules.jpg');
+    height: 400px;
+    width: 401px;
+
+}
+.texto2{
+    position: absolute;
+    top: 985px;
+    left: 170px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#img3{
+    background-image: url('fezco.jpg');
+    height: 400px;
+    width:  401px;
+    background-size: 350px ;
+    background-repeat: no-repeat;
+    
+}
+#img3:active{
+    background-image: url('euphoria_Nate.jpeg');
+    height: 400px;
+    width: 401px;
+}
+.texto3{
+    position: absolute;
+    top: 1450px;
+    left: 170px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
